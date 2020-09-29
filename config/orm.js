@@ -53,7 +53,7 @@ var orm = {
         queryString += " WHERE ";
         queryString += condition;
 
-        console.log(querySting);
+        console.log(queryString);
         connection.query(queryString, function(err, result){
             if(err){
                 throw err;
